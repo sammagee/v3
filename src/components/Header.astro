@@ -1,0 +1,53 @@
+---
+import { SITE_TITLE } from "../config";
+import HeaderLink from "./HeaderLink.astro";
+import ExternalLink from "./icons/ExternalLink.astro";
+import GitHub from "./icons/GitHub.astro";
+import Twitter from "./icons/Twitter.astro";
+---
+
+<header class="border-b border-default-400">
+  <a
+    href="/"
+    class="no-underline text-default-200 hover:text-default-100 inline-flex items-center space-x-8"
+  >
+    <h2 class="text-4xl tracking-wide font-medium">
+      {SITE_TITLE}
+    </h2>
+  </a>
+
+  <nav class="mt-4 flex justify-between -my-px">
+    <div class="space-x-5">
+      <HeaderLink href="/projects">Projects</HeaderLink>
+      <HeaderLink href="/thoughts">Thoughts</HeaderLink>
+    </div>
+
+    <div class="space-x-5 flex items-center">
+      <ExternalLink class="w-5 text-default-400" />
+
+      <div class="hidden md:flex items-center space-x-5">
+        <HeaderLink href={new URL("resume.pdf", Astro.url)} target="_blank"
+          >Résumé</HeaderLink
+        >
+        <HeaderLink href="https://twitter.com/sammagee" target="_blank"
+          >Twitter</HeaderLink
+        >
+        <HeaderLink href="https://github.com/sammagee" target="_blank"
+          >GitHub</HeaderLink
+        >
+      </div>
+
+      <div class="flex md:hidden items-center space-x-5">
+        <HeaderLink href={new URL("resume.pdf", Astro.url)} target="_blank"
+          >Résumé
+        </HeaderLink>
+        <HeaderLink href="https://twitter.com/sammagee" target="_blank"
+          ><Twitter class="h-6" />
+        </HeaderLink>
+        <HeaderLink href="https://github.com/sammagee" target="_blank"
+          ><GitHub class="h-6" />
+        </HeaderLink>
+      </div>
+    </div>
+  </nav>
+</header>

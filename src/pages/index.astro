@@ -1,0 +1,28 @@
+---
+import Link from "../components/Link.astro";
+import { SITE_DESCRIPTION, SITE_TITLE } from "../config";
+import DefaultLayout from "../layouts/Default.astro";
+---
+
+<DefaultLayout content={{ title: SITE_TITLE, description: SITE_DESCRIPTION }}>
+  <div class="text-5xl leading-relaxed text-default-200 text-justify">
+    Hey, I'm Sam! My goal is to craft elegant experiences that intuitively solve
+    your problems.
+  </div>
+
+  <div class="mt-8 text-4xl leading-relaxed text-default-300 text-justify">
+    I am a frontend engineer at Uber, working on solving complex and interesting
+    problems in the marketplace. I am also currently working on achieving my
+    Master's in Computer Science at Vanderbilt University (last semester,
+    woohoo!).
+  </div>
+
+  <div class="mt-8 text-4xl leading-relaxed text-default-300 text-justify">
+    I'm not currently looking for new clients, but if you have any ideas or
+    anything interesting you'd like to discuss, <Link
+      href="mailto:hi@sammagee.me"
+      class="text-default-300 hover:text-default-200 border-default-300 hover:border-default-200"
+      >hit me up</Link
+    >.
+  </div>
+</DefaultLayout>

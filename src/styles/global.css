@@ -1,0 +1,106 @@
+@layer theme {
+  :root,
+  html.gray {
+    --color-default-50: theme(colors.zinc.50);
+    --color-default-100: theme(colors.zinc.100);
+    --color-default-200: theme(colors.zinc.200);
+    --color-default-300: theme(colors.zinc.300);
+    --color-default-400: theme(colors.zinc.400);
+    --color-default-500: theme(colors.zinc.500);
+    --color-default-600: theme(colors.zinc.600);
+    --color-default-700: theme(colors.zinc.700);
+    --color-default-800: theme(colors.zinc.800);
+    --color-default-900: theme(colors.zinc.900);
+  }
+
+  html.red {
+    --color-default-50: theme(colors.red.50);
+    --color-default-100: theme(colors.red.100);
+    --color-default-200: theme(colors.red.200);
+    --color-default-300: theme(colors.red.300);
+    --color-default-400: theme(colors.red.400);
+    --color-default-500: theme(colors.red.500);
+    --color-default-600: theme(colors.red.600);
+    --color-default-700: theme(colors.red.700);
+    --color-default-800: theme(colors.red.800);
+    --color-default-900: theme(colors.red.900);
+  }
+
+  html.orange {
+    --color-default-50: theme(colors.orange.50);
+    --color-default-100: theme(colors.orange.100);
+    --color-default-200: theme(colors.orange.200);
+    --color-default-300: theme(colors.orange.300);
+    --color-default-400: theme(colors.orange.400);
+    --color-default-500: theme(colors.orange.500);
+    --color-default-600: theme(colors.orange.600);
+    --color-default-700: theme(colors.orange.700);
+    --color-default-800: theme(colors.orange.800);
+    --color-default-900: theme(colors.orange.900);
+  }
+
+  html.yellow {
+    --color-default-50: theme(colors.yellow.50);
+    --color-default-100: theme(colors.yellow.100);
+    --color-default-200: theme(colors.yellow.200);
+    --color-default-300: theme(colors.yellow.300);
+    --color-default-400: theme(colors.yellow.400);
+    --color-default-500: theme(colors.yellow.500);
+    --color-default-600: theme(colors.yellow.600);
+    --color-default-700: theme(colors.yellow.700);
+    --color-default-800: theme(colors.yellow.800);
+    --color-default-900: theme(colors.yellow.900);
+  }
+
+  html.green {
+    --color-default-50: theme(colors.green.50);
+    --color-default-100: theme(colors.green.100);
+    --color-default-200: theme(colors.green.200);
+    --color-default-300: theme(colors.green.300);
+    --color-default-400: theme(colors.green.400);
+    --color-default-500: theme(colors.green.500);
+    --color-default-600: theme(colors.green.600);
+    --color-default-700: theme(colors.green.700);
+    --color-default-800: theme(colors.green.800);
+    --color-default-900: theme(colors.green.900);
+  }
+
+  html.blue {
+    --color-default-50: theme(colors.blue.50);
+    --color-default-100: theme(colors.blue.100);
+    --color-default-200: theme(colors.blue.200);
+    --color-default-300: theme(colors.blue.300);
+    --color-default-400: theme(colors.blue.400);
+    --color-default-500: theme(colors.blue.500);
+    --color-default-600: theme(colors.blue.600);
+    --color-default-700: theme(colors.blue.700);
+    --color-default-800: theme(colors.blue.800);
+    --color-default-900: theme(colors.blue.900);
+  }
+
+  html.indigo {
+    --color-default-50: theme(colors.indigo.50);
+    --color-default-100: theme(colors.indigo.100);
+    --color-default-200: theme(colors.indigo.200);
+    --color-default-300: theme(colors.indigo.300);
+    --color-default-400: theme(colors.indigo.400);
+    --color-default-500: theme(colors.indigo.500);
+    --color-default-600: theme(colors.indigo.600);
+    --color-default-700: theme(colors.indigo.700);
+    --color-default-800: theme(colors.indigo.800);
+    --color-default-900: theme(colors.indigo.900);
+  }
+
+  html.violet {
+    --color-default-50: theme(colors.violet.50);
+    --color-default-100: theme(colors.violet.100);
+    --color-default-200: theme(colors.violet.200);
+    --color-default-300: theme(colors.violet.300);
+    --color-default-400: theme(colors.violet.400);
+    --color-default-500: theme(colors.violet.500);
+    --color-default-600: theme(colors.violet.600);
+    --color-default-700: theme(colors.violet.700);
+    --color-default-800: theme(colors.violet.800);
+    --color-default-900: theme(colors.violet.900);
+  }
+}

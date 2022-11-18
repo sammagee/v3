@@ -1,0 +1,29 @@
+---
+import Head from "../components/Head.astro";
+import Header from "../components/Header.astro";
+import { COLORS } from "../config";
+
+const {
+  content: { title, description },
+} = Astro.props;
+
+const randomColorIndex = (COLORS.length * Math.random()) | 0;
+const primaryColor = COLORS[randomColorIndex];
+---
+
+<!DOCTYPE html>
+<html lang="en" class:list={[primaryColor, "text-xs md:text-xs lg:text-base"]}>
+  <head>
+    <Head title={title} description={description} />
+  </head>
+
+  <body class="bg-default-600">
+    <div class="w-full py-24 px-8 max-w-7xl mx-auto">
+      <Header />
+
+      <main class="mt-16">
+        <slot />
+      </main>
+    </div>
+  </body>
+</html>
